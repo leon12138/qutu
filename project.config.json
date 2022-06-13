@@ -1,0 +1,16 @@
+{
+  "setting": {
+    "minified": true,
+    "es6": true,
+    "postcss": false,
+    "urlCheck": true
+  },
+  "appid": "tt476e31d3d8508e6001",
+  "projectname": "仙图壁纸",
+  "condition": {
+    "miniprogram": {
+      "current": -1,
+      "list": []
+    }
+  }
+}

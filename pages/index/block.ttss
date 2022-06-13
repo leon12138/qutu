@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.index-block.data-v-388e4527 {
+  margin: 0 10rpx 0;
+  background-color: white;
+  border-radius: 30rpx;
+}
+.index-block .index-block-t.data-v-388e4527 {
+  display: flex;
+  align-items: center;
+}
+.index-block .index-block-text.data-v-388e4527 {
+  flex: 1;
+}
+.index-block .index-block-text .index-block-textstr.data-v-388e4527 {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.index-block .index-block-text .index-block-textstr.data-v-388e4527:before {
+  content: '';
+  display: block;
+  margin-right: 10rpx;
+  margin-left: 30rpx;
+  width: 8rpx;
+  height: 36rpx;
+  border-radius: 4rpx;
+  background-color: black;
+}
+.index-block .index-block-text .index-block-textstr.red.data-v-388e4527:before {
+  background-color: #f86060;
+}
+.index-block .index-block-text .index-block-textstr.blue.data-v-388e4527:before {
+  background-color: #3753ff;
+}
+.index-block .index-block-text .index-block-textstr.pink.data-v-388e4527:before {
+  background-color: #f37de1;
+}
+.index-block .index-block-text .index-block-textstr.green.data-v-388e4527:before {
+  background-color: #74b838;
+}
+.index-block .index-block-text .index-block-textstr.orange.data-v-388e4527:before {
+  background-color: #d88104;
+}
+.index-block .index-block-more.data-v-388e4527 {
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  color: #808080;
+  margin-right: 30rpx;
+}
+.index-block .index-block-more image.data-v-388e4527 {
+  display: block;
+  width: 30rpx;
+  margin-left: 10rpx;
+}
+.item-body.data-v-388e4527 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+.layout-1.data-v-388e4527 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 30rpx 30rpx;
+}
+.layout-1 navigator.data-v-388e4527 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 31.5%;
+  margin-top: 30rpx;
+  position: relative;
+}
+.layout-1 navigator image.data-v-388e4527 {
+  display: block;
+  width: 100%;
+  border-radius: 14rpx;
+}
+.layout-1 navigator text.data-v-388e4527 {
+  font-size: 24rpx;
+  margin-top: 20rpx;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+.layout-1 navigator .label-gif.data-v-388e4527 {
+  border-bottom-right-radius: 14rpx;
+}
+.layout-1 navigator .index-block-play.data-v-388e4527 {
+  position: absolute;
+  width: 60rpx;
+  height: 60rpx;
+}
+.layout-1.data-v-388e4527:after {
+  content: '';
+  width: 31.5%;
+}
+.layout-2.data-v-388e4527 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 30rpx;
+}
+.layout-2 navigator.data-v-388e4527 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin-left: 2.5%;
+  margin-top: 20rpx;
+}
+.layout-2 navigator image.data-v-388e4527 {
+  display: block;
+  width: 100%;
+  border-radius: 20rpx;
+}
+.layout-2 navigator text.data-v-388e4527 {
+  font-size: 24rpx;
+  margin-top: 20rpx;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+.layout-2 navigator .label-gif.data-v-388e4527 {
+  border-bottom-right-radius: 20rpx;
+}
+.layout-3.data-v-388e4527 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 30rpx 30rpx;
+}
+.layout-3 navigator.data-v-388e4527 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 47.75%;
+  margin-top: 30rpx;
+  position: relative;
+}
+.layout-3 navigator image.data-v-388e4527 {
+  display: block;
+  width: 100%;
+  border-radius: 14rpx;
+}
+.layout-3 navigator text.data-v-388e4527 {
+  font-size: 24rpx;
+  margin-top: 20rpx;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+.layout-3 navigator .index-block-play.data-v-388e4527 {
+  position: absolute;
+  width: 60rpx;
+  height: 60rpx;
+}
+.layout-3.data-v-388e4527:after {
+  content: '';
+  width: 31.5%;
+}
+

@@ -1,0 +1,281 @@
+
+page {
+	/* background-color: #eee; */
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.index.data-v-57280228 {
+  padding-bottom: 1px;
+}
+.dr.data-v-57280228 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0rpx 20rpx 20rpx;
+  border-radius: 20rpx;
+  padding: 30rpx 0 0 0;
+  background-color: white;
+}
+.dr .dr-label.data-v-57280228 {
+  display: block;
+  flex-shrink: 0;
+  width: 240rpx;
+}
+.form.data-v-57280228 {
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 20rpx 20rpx;
+}
+.form .cancel.data-v-57280228 {
+  color: #666;
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+.form-input.data-v-57280228 {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  background-color: #f3f3f5;
+  border-radius: 80rpx;
+  padding: 0 0 0 20rpx;
+}
+.form-input input.data-v-57280228 {
+  display: block;
+  flex: 1;
+  font-size: 26rpx;
+  color: black;
+  height: 85rpx;
+  line-height: 85rpx;
+  margin: 0 24rpx;
+}
+.form-input button.data-v-57280228 {
+  background: #3D88FE;
+  color: white;
+  border-radius: 0;
+  border-top-right-radius: 80rpx;
+  border-bottom-right-radius: 80rpx;
+  height: 85rpx;
+  line-height: 85rpx;
+  border: 0;
+  font-size: 26rpx;
+  width: 25%;
+  height: 85rpx;
+  line-height: 85rpx;
+}
+.form-input button.data-v-57280228:after {
+  border: 0;
+}
+.search.data-v-57280228 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 50rpx;
+  padding: 16rpx 0;
+  margin: 30rpx;
+  color: #333;
+  font-size: 28rpx;
+}
+.search image.data-v-57280228 {
+  display: block;
+  width: 30rpx;
+  margin-right: 10rpx;
+}
+.swiper.data-v-57280228 {
+  width: 100%;
+  margin: 0 auto;
+}
+.swiper swiper-item.data-v-57280228 {
+  height: 100%;
+}
+.swiper swiper-item .swiper-item.data-v-57280228 {
+  height: 100%;
+}
+.swiper swiper-item .swiper-item.active image.data-v-57280228 {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.swiper swiper-item image.data-v-57280228 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+  transition-duration: 500ms;
+}
+.swiper-comp.data-v-57280228 {
+  position: relative;
+}
+.swiper-dot.data-v-57280228 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-dot view.data-v-57280228 {
+  border-radius: 14rpx;
+  width: 12rpx;
+  height: 12rpx;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0 5rpx;
+}
+.swiper-dot view.active.data-v-57280228 {
+  width: 45rpx;
+  background: white;
+}
+.swiper-dot.data-v-57280228 {
+  bottom: 10px;
+}
+.loading.data-v-57280228 {
+  display: block;
+  padding: 20rpx 0;
+  text-align: center;
+  color: #999;
+  font-size: 28rpx;
+}
+.ad-show.data-v-57280228 {
+  margin-top: 5px;
+  margin-bottom: 10rpx;
+}
+.talent-wrapper.data-v-57280228 {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.talent-wrapper .talent.data-v-57280228 {
+  width: 12.8%;
+  margin-top: 20rpx;
+  margin-left: 6%;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  text-align: center;
+  font-size: 24rpx;
+  color: #999;
+}
+.talent-wrapper .talent .talent-c.data-v-57280228 {
+  position: relative;
+  padding-bottom: 100%;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin-bottom: 10rpx;
+  overflow: hidden;
+}
+.talent-wrapper .talent .talent-c image.data-v-57280228 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.talent-wrapper .talent text.data-v-57280228 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+.more.data-v-57280228 {
+  margin-top: 40rpx;
+}
+.more .talent-c .more-c.data-v-57280228 {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.more .talent-c .more-c view.data-v-57280228 {
+  content: '';
+  display: block;
+  width: 10rpx;
+  height: 10rpx;
+  border-radius: 50%;
+  background-color: #aaa;
+  margin: 0 5rpx;
+}
+.some-entry.data-v-57280228 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20rpx 10rpx;
+}
+.some-entry navigator.data-v-57280228 {
+  display: block;
+  width: 48%;
+}
+.some-entry navigator image.data-v-57280228 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.custom-head.data-v-57280228 {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #5186f6;
+  display: flex;
+  align-items: flex-end;
+}
+.custom-head-c.data-v-57280228 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 26rpx;
+}
+.share.data-v-57280228 {
+  border: 0;
+  outline: none;
+  width: 50rpx;
+  background: none;
+  display: block;
+  margin: 0 0 0 30rpx;
+  padding: 0;
+}
+.share.data-v-57280228:after {
+  border: 0;
+  outline: none;
+}
+.share image.data-v-57280228 {
+  display: block;
+  width: 40rpx;
+  height: 40rpx;
+}
+.app-name.data-v-57280228 {
+  font-size: 40rpx;
+  color: white;
+  margin-left: 30rpx;
+}
+

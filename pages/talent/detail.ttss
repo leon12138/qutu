@@ -1,0 +1,332 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.detail-data.data-v-0403b92b {
+  position: relative;
+}
+.detail-data .detail-data-content.data-v-0403b92b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 30rpx 40rpx;
+  color: white;
+}
+.detail-data .detail-data-label.data-v-0403b92b {
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  font-size: 28rpx;
+  color: white;
+}
+.detail-data .detail-data-bg.data-v-0403b92b {
+  display: block;
+  width: 100%;
+}
+.detail-user.data-v-0403b92b {
+  margin-top: 5%;
+}
+.detail-user image.data-v-0403b92b {
+  display: block;
+  width: 100rpx;
+  height: 100rpx;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+}
+.detail-user text.data-v-0403b92b {
+  margin-left: 30rpx;
+  font-weight: bold;
+  margin-top: 10rpx;
+  font-size: 28rpx;
+}
+.detail-user-data.data-v-0403b92b {
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.detail-user-data .detail-uditem.data-v-0403b92b {
+  text-align: center;
+  font-size: 24rpx;
+}
+.detail-user-data .detail-uditem.data-v-0403b92b:nth-child(2) {
+  flex: 1;
+}
+.detail-user-data .detail-uditem text.data-v-0403b92b {
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-left: 20rpx;
+}
+.collect-tab.data-v-0403b92b {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+.collect-tab .collect-tabitem.data-v-0403b92b {
+  font-size: 28rpx;
+  color: #999;
+  width: 20%;
+  text-align: center;
+  position: relative;
+  padding: 20rpx 0;
+}
+.collect-tab .collect-tabitem.active.data-v-0403b92b {
+  font-weight: bold;
+  color: #3D88FE;
+}
+.collect-tab .collect-tabitem.active.data-v-0403b92b:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 80rpx;
+  margin-left: -40rpx;
+  height: 4rpx;
+  border-radius: 10rpx;
+  background-color: #3D88FE;
+}
+.collect-list.data-v-0403b92b {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 410rpx;
+}
+.collect-list.row2 .collect-item.data-v-0403b92b {
+  width: 47.75%;
+}
+.collect-list .collect-item.data-v-0403b92b {
+  width: 31.3%;
+  margin-left: 1.5%;
+  margin-bottom: 10rpx;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.collect-list .collect-item .item-body.data-v-0403b92b {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collect-list .collect-item > text.data-v-0403b92b {
+  font-size: 24rpx;
+  margin-top: 20rpx;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10rpx;
+}
+.collect-list .collect-item .collect-itemc.data-v-0403b92b {
+  width: 100%;
+}
+.collect-list .collect-item .collect-itemc image.data-v-0403b92b {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 8rpx;
+}
+.collect-list .collect-item .play.data-v-0403b92b {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  width: 60rpx;
+  height: 60rpx;
+}
+.collect-list .collect-item .label-gif.data-v-0403b92b {
+  border-bottom-right-radius: 8rpx;
+}
+.collect-list.waterfall-flow.data-v-0403b92b {
+  position: relative;
+  padding: 0;
+  margin-top: 410rpx;
+  opacity: 0;
+  transition: all .5s;
+}
+.collect-list.waterfall-flow.show.data-v-0403b92b {
+  opacity: 1;
+}
+.collect-list.waterfall-flow .collect-item.data-v-0403b92b {
+  position: absolute;
+  margin: 0;
+}
+.collect-list.waterfall-flow .collect-item .collect-itemc image.data-v-0403b92b {
+  width: 100%;
+}
+.collect-label.data-v-0403b92b {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 10rpx;
+  right: 10rpx;
+  background-color: #e1a63f;
+  color: white;
+  border-radius: 6rpx;
+  padding: 2rpx 10rpx;
+  font-size: 24rpx;
+}
+.detail-t.data-v-0403b92b {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.layout-change.data-v-0403b92b {
+  position: fixed;
+  right: 20rpx;
+  bottom: 5%;
+  z-index: 101;
+  border-radius: 40rpx;
+  overflow: hidden;
+  background-color: white;
+}
+.layout-change .layout-c.data-v-0403b92b {
+  padding: 30rpx 15rpx 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.layout-change .layout-c.active.data-v-0403b92b {
+  background-color: #3D88FE;
+}
+.layout-change image.data-v-0403b92b {
+  display: block;
+  width: 60rpx;
+}
+.layout-change .layout-item2.data-v-0403b92b {
+  padding: 20rpx 15rpx 30rpx;
+}
+.layout-change .layout-item2 image.data-v-0403b92b {
+  width: 50rpx;
+}
+.list2.data-v-0403b92b {
+  padding-top: 410rpx;
+}
+.list2 .item.data-v-0403b92b {
+  display: flex;
+  padding: 0 20rpx;
+}
+.list2 .item.row2 .item-data .item-imgs .item-img.data-v-0403b92b {
+  width: 47.75%;
+}
+.list2 .item .item-line.data-v-0403b92b {
+  flex-shrink: 0;
+  width: 1px;
+  background-color: #3e78d8;
+  position: relative;
+}
+.list2 .item .item-line.data-v-0403b92b:before {
+  content: '';
+  width: 10rpx;
+  height: 10rpx;
+  display: block;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #3e78d8;
+  border-radius: 50%;
+}
+.list2 .item .item-line.data-v-0403b92b:after {
+  content: '';
+  width: 22rpx;
+  height: 22rpx;
+  display: block;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: rgba(62, 120, 216, 0.5);
+  border-radius: 50%;
+}
+.list2 .item .item-time.data-v-0403b92b {
+  font-size: 28rpx;
+  font-weight: bold;
+  margin: -20rpx 0 20rpx 10rpx;
+}
+.list2 .item .item-data.data-v-0403b92b {
+  flex: 1;
+  margin-left: 20rpx;
+  padding-bottom: 40rpx;
+}
+.list2 .item .item-data .item-imgs.data-v-0403b92b {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list2 .item .item-data .item-imgs .item-img.data-v-0403b92b {
+  display: block;
+  width: 31.3%;
+  margin-left: 1.5%;
+  margin-bottom: 10rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+.list2 .item .item-data .item-imgs .item-img .item-body.data-v-0403b92b {
+  display: block;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+.list2 .item .item-data .item-imgs .item-img image.data-v-0403b92b {
+  display: block;
+  width: 100%;
+  border-radius: 10rpx;
+}
+.list2 .item .item-data .item-imgs .item-img > text.data-v-0403b92b {
+  font-size: 24rpx;
+  margin-top: 20rpx;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10rpx;
+}
+.list2 .item .item-data .item-imgs .item-img .play.data-v-0403b92b {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  width: 60rpx;
+  height: 60rpx;
+}
+.list2 .item .item-data .item-imgs .item-img .label-gif.data-v-0403b92b {
+  border-bottom-right-radius: 10rpx;
+}
+

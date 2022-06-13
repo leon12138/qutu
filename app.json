@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/talent/index",
+    "pages/talent/detail",
+    "pages/cate/index",
+    "pages/search/index",
+    "pages/search/result",
+    "pages/list/index",
+    "pages/detail/index",
+    "pages/user/index",
+    "pages/user/collect",
+    "pages/index/webview",
+    "pages/index/richtext",
+    "pages/detail/layout2",
+    "pages/user/richtext",
+    "pages/user/setting"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "星星取图",
+    "navigationBarBackgroundColor": "#3D88FE",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#3D88FE",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/talent/index",
+        "iconPath": "static/images/expert.png",
+        "selectedIconPath": "static/images/expert-active.png",
+        "text": "达人"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/user-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

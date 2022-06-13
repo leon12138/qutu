@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "yinliu": "/pages/detail/yinliu",
+    "alert": "/components/alert"
+  }
+}
