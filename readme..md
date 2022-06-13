@@ -1,6 +1,10 @@
 
-# 联系作者
-#### 联系作者微信:zoutianok,搭建或者定制问题,都可以直接咨询作者.
+### 联系作者
+####  微信:zoutianok,搭建或者定制问题,都可以直接咨询作者.
+
+### 程序截图
+<img src="http://imgapp66.oss-cn-hangzhou.aliyuncs.com/demoImg/1.png" width="50%">
+
  
 
 ### 服务器配置
