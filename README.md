@@ -1,11 +1,40 @@
 
-### 联系作者
-####  微信:zoutianok,搭建或者定制问题,都可以直接咨询作者.
+### 功能介绍
+- #### 创作者入驻
+  - 该程序为多创作者入驻版本,创作者可以申请入驻该程序,无需搭建自己的程序
+  - 创作者入驻程序后可以获得分佣
+  - 程序所有者可以抽取创作者的广告收入作为抽佣
+- #### 二级分销
+  - 程序包含创作者邀请制度,创作者可以互相邀请推荐,自己可以抽取部分被邀用户的收益作为推广分佣
+  - 分佣级别为二级,即自己邀请的创作者邀请的自己也可以获取分佣
+- #### 支持多端
+  - 该程序支持编译发布到多个平台，目前支持：抖音（字节）、微信、QQ、快手。
+- #### 支持广告类型
+  - 激励广告
+  - 插屏广告
+- #### 支持的上传的图片类型
+  - 表情包
+  - 壁纸
+  - 动态壁纸
+  - 微信背景
+  - 头像
+  - 其他各种类型的图片
+- #### 创作者结算
+  - 支持T+30等多种灵活的结算方式
+  - 支持微信打款和支付宝打款
+- #### 更多功能细节，暂不一一列举，具体可以体验程序
 
 ### 程序截图
-<img src="http://imgapp66.oss-cn-hangzhou.aliyuncs.com/demoImg/1.png" width="50%">
+<img src="https://imgapp66.oss-cn-hangzhou.aliyuncs.com/demoImg/1.png" height="400px">
+<img src="https://imgapp66.oss-cn-hangzhou.aliyuncs.com/demoImg/2.png" height="400px">
+<img src="https://imgapp66.oss-cn-hangzhou.aliyuncs.com/demoImg/3.jpg" height="400px">
+<img src="https://imgapp66.oss-cn-hangzhou.aliyuncs.com/demoImg/4.png" height="400px">
+<img src="https://imgapp66.oss-cn-hangzhou.aliyuncs.com/demoImg/5.png" height="400px">
 
  
+
+### 体验版二维码
+<img src="https://imgapp66.oss-cn-hangzhou.aliyuncs.com/demo.jpg" height="250px">
 
 ### 服务器配置
 
@@ -24,4 +53,11 @@ Centos7.6 、php7.2、mysql5.7
 1. 设置公共读
 2. 设置oss创建角色,然后给角色设置权限.
 3. 权限策略为:
+
+
+### 联系作者
+####  微信:`zoutianok`,搭建或者定制问题,都可以直接咨询作者.
+<img src="https://lanchong.oss-cn-beijing.aliyuncs.com/wx.jpg" height="300px">
+ 
+
  
