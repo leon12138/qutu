@@ -36,7 +36,7 @@
 
  
 
-### 体验版二维码
+### 体验版二维码（抖音端）
 <img src="https://imgapp66.oss-cn-hangzhou.aliyuncs.com/demo.jpg" height="250px">
 
 ### 服务器配置
