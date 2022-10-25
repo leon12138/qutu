@@ -1,6 +1,8 @@
 
 #### 好用的话给个小星星呗！！！！
-
+### 联系作者
+####  微信:`zoutianok`,搭建或者定制问题,都可以直接咨询作者.
+<img src="https://lanchong.oss-cn-beijing.aliyuncs.com/wx.jpg" height="300px">
 
 ### 功能介绍
 - #### 创作者入驻
@@ -58,9 +60,7 @@ Centos7.6 、php7.2、mysql5.7
 3. 权限策略为:
 
 
-### 联系作者
-####  微信:`zoutianok`,搭建或者定制问题,都可以直接咨询作者.
-<img src="https://lanchong.oss-cn-beijing.aliyuncs.com/wx.jpg" height="300px">
+
  
 
  
