@@ -5,6 +5,7 @@
 
 ### 微信:`zoutianok`,搭建或者定制问题,都可以直接咨询作者.
 <img src="https://lanchong.oss-cn-beijing.aliyuncs.com/wx.jpg" height="300px">
+![4661bcc11d98c39785969a5ac78fbbb](https://github.com/leon12138/qutu/assets/37241475/6c9bb778-21bb-47ac-9f10-43b29fa31ed5)
 
 ### 功能介绍
 - #### 创作者入驻
@@ -38,7 +39,9 @@
 <img src="https://imgapp66.oss-cn-hangzhou.aliyuncs.com/demoImg/4.png" height="400px">
 <img src="https://imgapp66.oss-cn-hangzhou.aliyuncs.com/demoImg/5.png" height="400px">
 
- 
+ ![image](https://github.com/leon12138/qutu/assets/37241475/ffd56c86-ff6b-464a-b58d-dafa2e8e7634)
+![image](https://github.com/leon12138/qutu/assets/37241475/2ddcb478-ffe6-42fd-968c-07f12c4aae4d)
+
 
 ### 体验版二维码（抖音端）
 <img src="https://imgapp66.oss-cn-hangzhou.aliyuncs.com/demo.jpg" height="250px">
